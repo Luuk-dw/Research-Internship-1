@@ -36,6 +36,7 @@ df <- data.frame()
 
 # Loop over the stocks
 for (stock in stocks) {
+  # Print the ticker of the current stock to indicate how fast the process is going
   print(stock)
   
   # Loop over the trading days

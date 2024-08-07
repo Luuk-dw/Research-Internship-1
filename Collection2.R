@@ -22,7 +22,9 @@ filename_length <- nchar(files[1])
 # Loop over all files, i.e. the different dates
 for (file in files) {
   date <- substring(file, filename_length - 13, filename_length - 4)
-  print(date)
+  
+  # Print the date to indicate how fast the process is going
+  print(date)         
   
   # Read the file corresponding to the particular date
   data <- readRDS(file)
