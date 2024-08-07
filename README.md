@@ -8,7 +8,6 @@ The first step in the project is to investigate whether the method works empiric
 
 The code for preprocessing the collected data is:
 - Preprocessing.ipynb
-- Preprocessing2.ipynb
 
 The code for exploring the computational efficiency of using the new parameterization of the correlation matrices is:
 - Transformation.ipynb
@@ -18,3 +17,4 @@ The code for forecasting correlation matrices using several feedforward neural n
 
 The code for boosting several parametric forecasts using feedforward neural networks is:
 - Boost.ipynb
+- Boost2.ipynb
